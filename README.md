@@ -20,3 +20,6 @@ dotnet publish -c Release --self-contained --runtime linux-x64 -o out
 dotnet <PATH TO DLL>/out/MUSEONNX.dll  '{"instances": [{"inputs":["I have seen the world, done it all, had my cake now"]}, {"inputs":["Diamonds, brilliant, and Bel Air now"]}]}'
 
 ```
+## Additional artifacts
+* libortcustomops.so for linux
+* ortcustomops.dll for Windows
